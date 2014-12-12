@@ -28,7 +28,7 @@ function runthis() {
 			var numberOfImages = 0;
 			
 			/*Add css - Must change this if you want to use your own CSS*/
-			jQuery('<style type="text/css">@import url("https://www.dropbox.com/s/wbuks7oczxde1z0/style.css");</style>').appendTo("head");
+			jQuery('<style type="text/css">@import url("https://raw.githubusercontent.com/soundaryachandar/Hackweek/master/style.css");</style>').appendTo("head");
 						
 			/*Add toggle*/
 			jQuery('body').append('<div id="background-blocker"></div><div id="image-grabber-container"><div id="button-toggle"><span id="close">Close</span><span id="count"></span></div><ul id="list-of-images"></ul></div>');
